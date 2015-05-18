@@ -1,0 +1,125 @@
+---
+title: Account - Reviews
+---
+<body class="account">
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    {{>header}}
+
+    <!-- MAIN CONTENT -->
+    <div class="container" id="account">
+      <div class="row" id="nav">
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12">
+          <ul>
+            <li><a>ACCOUNT SETTINGS</a></li>
+            <li>
+            <a>MY ORDERS</a>
+            </li>
+            <li><a>MY PROJECTS</a></li>
+            <li>
+            <a class="active">RATINGS &amp; REVIEWS</a>
+            <ul class="sub-drop-down ratings">
+                <li><a class="active">REVIEWS ABOUT YOU</a></li>
+                <li><a>REVIEWS BY YOU</a></li>
+              </ul>
+            </li>
+          </ul>
+       </div> <!-- COL NAV -->
+      </div> <!-- ROW NAV -->
+  
+      <div class="row" id="account-top">
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12">
+          
+            <div class="section-top">
+              <div class="sec-left">
+              <div class="user-avatar-holder">
+                <img src="./images/customer-profile-img.png" alt="" class="user-avatar img-responsive">
+              </div><!-- CUST AVA HOLDER -->
+                <span class="name">Arielle Assouline-Lichten</span>
+              </div><!-- SEC LEFT -->
+              <div class="sec-right">
+                <div class="title-box">
+                  <h2>Welcome to your Reviews</h2>
+                  <p>
+                  Post reviews about your rental experiences. 
+                  </p>
+                  
+                </div><!-- TITLE BOX -->
+              </div><!-- SEC RIGHT -->
+            </div><!-- SECTION TOP --> 
+        </div><!-- COL LG 10 -->
+      </div><!-- ROW #ACCOUNT TOP-->
+
+      <div class="row" id="reviews-holder">
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12">
+          <div class="header">
+            <h3>reviews about you</h3>
+            <span class="count">1</span>
+         
+            </div>
+          
+          </div><!-- COL -->
+        </div><!-- ROW -->
+
+        <div class="row review-item">
+          <div class="col-lg-10 col-lg-offset-1 col">
+            <div>
+              <div class="top">
+                <div class="review-date">October 23, 2014</div>
+                <div class="rating-title">RATING</span></div>
+                <div class="review-by">REVEIW BY <span>ABEL CINE</span></div>
+              </div> <!-- TOP -->
+              <div class="bottom">
+                <div class="colophon">
+                  
+                    <div class="circle">
+                    {{!-- <div class="inner-circle"></div> --}}
+                    <img src="./images/alexa-epic.png" alt="">
+                    </div>
+
+                
+             
+                </div> <!-- COLOPHON -->
+                <div class="top-row">
+                <div class="item">
+                  Large Alexa Oblique
+                  with Support Items
+                </div>
+                <div class="rating">
+                  <div class="stars five"></div>
+                </div>
+                
+                  
+                </div><!-- TOP ROW -->
+                <div class="bottom-row">
+                  <div class="review-content">
+                    <p>
+                      “It was such a apleasure doing business with Arielle, she was quick and communicative - payments sent speedily and equipent returned in great condition. A+++++++”
+                    </p>
+                  </div>
+                </div><!-- BOTTOM ROW -->
+                <div class="reviewer">
+                  <div class="circle">
+                    {{!-- <div class="inner-circle"></div> --}}
+                    <img src="./images/able-cine.png" alt="">
+                    </div>
+                    <p>abel cine <span>Brooklyn, NY</span></p>
+                </div>
+            </div><!--  BOTTOM -->
+            </div>
+          </div> <!-- COL -->
+        </div> <!-- ROW ORDER ITEM -->
+
+        
+      
+
+
+    </div> <!-- CONTAINER#ACCOUNT -->
+
+
+    {{>footer}}
+
+    {{>bottom-includes}}
+</body>

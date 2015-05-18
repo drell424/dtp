@@ -1,0 +1,275 @@
+// CART
+.container#cart{
+
+	.row#title{
+		@extend .proxima-regular;
+		font-size:22px;
+		color:#000;
+		margin-top:25px;
+		margin-bottom:20px;
+
+	} // ROW TITLE
+
+	.row.cart-item{
+
+		&:last-child{
+			margin-bottom:100px;
+		}
+
+		.col{
+			padding-left:0;
+			padding-right:0;
+		}
+		.col > div{
+			width:100%;
+			padding: 16px 30px 20px 30px;
+			@extend .proxima-semibold;
+			font-size:22px;
+			background:#000;
+			border-radius:8px;
+			margin-bottom: 20px;
+		} // COL > DIV
+
+		.top{
+			width:100%;
+			height:30px;
+			border-bottom:1px solid #a2a2a2;
+			position:relative;
+
+			.dot{
+				width:8px;
+				height:8px;
+				border-radius:4px;
+				background:$red;
+				float:left;
+				margin-top: 6px;
+				margin-right: 6px;
+			}
+			.order-number{
+				font-size:15px;
+				@extend .proxima-light;
+				color:white;
+				float:left;
+				width:235px;
+			}
+			.order-name{
+				text-transform:uppercase;
+				float:left;
+				font-size:18px;
+				line-height: 18px;
+				color:#fff;
+				@extend .proxima-cond-regular;
+
+				span{ @extend .proxima-cond-semibold; }
+			}
+			.order-date{
+				margin-left:155px;
+				img{
+					margin-top: -4px;
+					margin-right:10px;
+				}
+				float:left;
+				font-size:16px;
+				line-height: 18px;
+				color:#fff;
+				@extend .proxima-cond-semibold;
+				font-style:italic;
+			}
+			a{
+				position:absolute;
+				top: -11px;
+				right: -23px;
+			}
+		} // TOP
+
+		.bottom{
+			width:100%;
+			overflow:auto;
+
+			.row.bottom-row{
+				margin:0;
+
+				.inner-left-col{
+					padding-left:0px;
+					padding-right:0px;
+					overflow:auto;
+					.cart-item{
+						float:left;
+						width:100%;
+						border-bottom:1px solid #757678;
+						padding-top:15px;
+						padding-bottom:15px;
+
+						div.image{
+							width:180px; // CHANGE TO PERCENT?
+		 					height:180px;
+		 					display:block;
+		 					float:left;
+		 					background:white;
+		 					border-radius:90px;
+		 					overflow:hidden;
+		 					background:#fff url(../images/camera_test.png) no-repeat center center;
+		 					background-size:cover;
+ 						} // IMAGE
+ 						div.info{
+ 							float:left;
+ 							margin-left:50px;
+ 							width:370px;
+ 							color:#fff;
+ 							line-height: 28px;
+ 							.title{ margin-top:50px; @extend .proxima-cond-semibold; font-size:18px; clear:both; }
+ 							.transaction{ @extend .proxima-cond-regular; font-size:16px; clear:both; }
+ 							.quantity{ @extend .proxima-cond-regular; font-size:16px; clear:both; & > div{ float:left; } }
+ 							.price{ @extend .proxima-cond-regular; font-size:16px; clear:both; }
+ 							select{
+ 								float:left;
+ 								width:60px;
+ 								height:24px;
+ 								margin-left:5px;
+ 							}
+ 						} // INFO
+					} // CART ITEM
+					.misc{
+						float:left;
+						width:100%;
+						padding-top:30px;
+						padding-bottom:15px;
+
+						input{ 
+							margin-left:235px; 
+							margin-bottom:12px; 
+							margin-right:12px; 
+							height:32px; 
+							float:left; 
+							@extend .proxima-cond-regular;
+							font-size:16px;
+							color:#000;
+							background:#ccc;
+
+							&#insurance{ width:183px; }
+							&#agree{ width:197px; }
+						}
+						.check{
+							width:19px;
+							height:19px;
+							margin-top:6px;
+							background:url(../images/green-check.png) no-repeat center center;
+							float:left;
+						}
+						.notes-title{
+							width:170px;
+							float:left;
+							clear:both;
+							text-align:right;
+							@extend .proxima-cond-semibold;
+							font-size:16px;
+							color:#fff;
+						}
+						textarea{
+							width:380px;
+							height:97px;
+							border:1px solid #757678;
+							float:left;
+							background:black;
+							@extend .proxima-cond-semibold;
+							font-size:16px;
+							color:#fff;
+							margin-left: 65px;
+						}
+					} // MISC
+				} // INNER LEFT COL
+
+				.inner-right-col{
+					padding-right:0px;
+					padding-top:15px;
+					overflow:auto;
+					> div{
+						width:100%;
+						overflow:auto;
+						margin-bottom:10px;
+						background:#ccc;
+						border-radius:12px;
+						padding-left:20px;
+						padding-right:20px;
+						@extend .proxima-cond-regular;
+						font-size:16px;
+						color:#000;
+
+						&.receipt{
+							padding-top:45px;
+							padding-bottom:175px;
+
+							.item{
+								width:100%;
+								float:left;
+
+								.left{
+									width:158px;
+									padding-top:9px;
+									padding-bottom:9px;
+									border-bottom:1px solid #c5c0c0;
+									float:left;
+									.name{}
+									.total{ text-align:right; @extend .proxima-cond-semibold; }
+								} // LEFT
+								.price{ float:right; padding-top: 30px; }
+
+								&.shipping{
+									border-bottom:1px solid #7c7a7a;
+									.left{ border-bottom:0px; }
+									.name{ float:left; }
+									select{ float:left; width:97px; height:24px; @extend .proxima-cond-semibold; font-size:16px; color:#000; margin-left:2px; }
+									.price{ float:right; padding-top: 9px; }
+								} // SHIPPING
+								&.total{
+									@extend .proxima-cond-semibold;
+									font-size:18px;
+									.left{ border-bottom:0px; }
+									.price{ float:right; padding-top: 9px; }
+								}
+
+							} // ITEM
+						} // RECEIPT
+						&.address, &.payment{
+							padding-top:15px;
+							padding-bottom:12px;
+							position:relative;
+							color:#000;
+
+							a.edit{
+								float:right;
+								color:#000;
+								@extend .proxima-cond-regular;
+								font-size:11px;
+							}
+							.title{
+								@extend .proxima-cond-semibold;
+								font-size:16px;
+							}
+							div{
+								@extend .proxima-cond-regular;
+								font-size:16px;
+							}
+						} // ADDRESS / PAYMENT
+
+					} // > DIV
+
+					a.checkout{
+						float:right;
+						background:$red;
+						@extend .proxima-semibold;
+						color:#fff;
+						font-size:14px;
+						width:128px;
+						height:30px;
+						padding-top:4px;
+					}
+
+				} // INNER RIGHT COL
+
+			} // BOTTOM ROW
+
+		} // BOTTOM
+
+	} // ROW CART ITEM
+} // CONTAINER CART

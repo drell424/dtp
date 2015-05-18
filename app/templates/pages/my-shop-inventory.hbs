@@ -1,0 +1,876 @@
+---
+title: My Shop Inventory
+---
+<body class="shop-settings">
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    {{>header}}
+
+
+     <!-- MAIN CONTENT -->
+
+    <div class="container" id="my-shop">
+      <div class="row" id="nav">
+        <div class="col-lg-10 col-lg-offset-1">
+          <ul>
+            <li><a>SHOP SETTINGS</a></li>
+            <li><a>SHOP ORDERS</a></li>
+            <li>
+              <a class="active">MANAGE INVENTORY</a>
+              <ul class="sub-drop-down">
+                <li><a class="active">AVAILABLE</a></li>
+                <li><a>RENTED</a></li>
+                <li><a>ARCHIVED</a></li>
+              </ul>
+            </li>
+            <li><a>RATINGS &amp; REVIEWS</a></li>
+          </ul>
+       </div> <!-- COL NAV -->
+      </div> <!-- ROW -->
+
+      <div id="my-shop-inventory">
+
+      	<div class="row" id="shop-header">
+          <div class="col-lg-10 col-lg-offset-1 col">
+            <div>
+              your available inventory <span class="count">6</span>
+            
+            <div class="btn fancybox" href="#fancy-add-item">Add New Item</div>
+            </div>
+          </div> <!-- COL -->
+        </div> <!-- ROW SHOP HEADER -->
+
+        
+
+        <div class="row" id="inventory-available">
+          <div class="col-lg-10 col-lg-offset-1 col">
+            <div>
+              <ul>
+                <li>
+                  <div class="category-block">
+                    <div class="cat-header">
+                      <h2>Equipment</h2>
+                      <span class="count">6</span>
+                      <span class="toggle">&mdash;</span>
+                    </div><!-- CAT HEADER -->
+                    
+                    <ul class="sub-cat-list">
+                      <li>
+                        <div class="sub-category-block">
+                          <div class="sub-cat-header">
+                            <h3>Cameras</h3>
+                            <span class="count">4</span>
+                          </div><!-- SUB CAT HEADER -->
+
+                          <ul class="product-list">
+                            <li>
+                              <div class="product">
+                                <div class="inv-prod-left">
+                                  <div class="product-image-holder">
+                                  <img class="product-main" src="./images/alexa-epic.png" />
+                                </div><!-- PRODUCT IMAGE HOLDER -->
+                                <div class="info">
+                                  <div class="top">
+                                    <div class="left">
+                                      <span class="name">Large Alexa Red Epic</span>
+                                    </div>
+                                    <div class="right">
+                                      <div class="stars five"></div> <span class="price">$750 / $500 / $250</span>
+                                    </div> <!-- RIGHT -->
+                                  </div><!-- TOP -->
+                                  <div class="bottom">
+                                    <div class="content">
+                                      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>  
+                                    </div>
+                                  </div> <!-- BOTTOM -->
+                              </div> <!-- INFO -->
+                                
+                              </div><!-- INV PROD LEFT -->
+                              <div class="inv-prod-right">
+                                <div class="top">
+                                  <h4>available / total</h4>
+                                  <span class="inventory-remaining">44 / 100</span>
+                                </div><!-- TOP -->
+                                <div class="buttons">
+                                  <div class="btn-top">
+                                    <div class="btn white">Edit</div>
+                                    <div class="btn white">Duplicate</div>
+                                  </div>
+                                  <div class="btn-btm">
+                                    <div class="btn grey">Archive</div>
+                                    <div class="btn grey">Delete</div>
+                                  </div>
+                                </div><!-- BUTTONS -->
+                              </div><!-- INV PROD RIGHT -->
+                            </div><!-- PRODUCT -->
+                          </li>
+                          <li>
+                            <div class="product">
+                              <div class="inv-prod-left">
+                                <div class="product-image-holder">
+                                <img class="product-main" src="./images/alexa-epic.png" />
+                              </div><!-- PRODUCT IMAGE HOLDER -->
+                              <div class="info">
+                                <div class="top">
+                                  <div class="left">
+                                    <span class="name">Large Alexa Red Epic</span>
+                                  </div>
+                                  <div class="right">
+                                    
+                                    <div class="stars five"></div> <span class="price">$750 / $500 / $250</span>
+                                  </div> 
+                                </div><!-- TOP -->
+                                <div class="bottom">
+                                  <div class="content">
+                                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>  
+                                  </div>
+                                </div> <!-- BOTTOM -->
+                              </div> <!-- INFO -->
+                                
+                              </div><!-- INV PROD LEFT -->
+                              <div class="inv-prod-right">
+                                <div class="top">
+                                  <h4>available / total</h4>
+                                  <span class="inventory-remaining">44 / 100</span>
+                                </div><!-- TOP -->
+                                <div class="buttons">
+                                  <div class="btn-top">
+                                    <div class="btn white">Edit</div>
+                                    <div class="btn white">Duplicate</div>
+                                  </div>
+                                  <div class="btn-btm">
+                                    <div class="btn grey">Archive</div>
+                                    <div class="btn grey">Delete</div>
+                                  </div>
+                                </div>
+                                
+                              </div><!-- INV PROD RIGHT -->
+                            </div><!-- PRODUCT -->
+                          </li>
+                          <li>
+                            <div class="product">
+                              <div class="inv-prod-left">
+                                <div class="product-image-holder">
+                                <img class="product-main" src="./images/alexa-epic.png" />
+                              </div><!-- PRODUCT IMAGE HOLDER -->
+                              <div class="info">
+                                <div class="top">
+                                  <div class="left">
+                                    <span class="name">Large Alexa Red Epic</span>
+                                  </div>
+                                  <div class="right">
+                                    
+                                    <div class="stars five"></div> <span class="price">$750 / $500 / $250</span>
+                                  </div> 
+                                </div><!-- TOP -->
+                                <div class="bottom">
+                                  <div class="content">
+                                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>  
+                                  </div>
+                                </div> <!-- BOTTOM -->
+                              </div> <!-- INFO -->
+                                
+                              </div><!-- INV PROD LEFT -->
+                              <div class="inv-prod-right">
+                                <div class="top">
+                                  <h4>available / total</h4>
+                                  <span class="inventory-remaining">44 / 100</span>
+                                </div><!-- TOP -->
+                                <div class="buttons">
+                                  <div class="btn-top">
+                                    <div class="btn white">Edit</div>
+                                    <div class="btn white">Duplicate</div>
+                                  </div>
+                                  <div class="btn-btm">
+                                    <div class="btn grey">Archive</div>
+                                    <div class="btn grey">Delete</div>
+                                  </div>
+                                </div>
+                                
+                              </div><!-- INV PROD RIGHT -->
+                            </div><!-- PRODUCT -->
+                          </li>
+                          <li>
+                            <div class="product">
+                              <div class="inv-prod-left">
+                                <div class="product-image-holder">
+                                <img class="product-main" src="./images/alexa-epic.png" />
+                              </div><!-- PRODUCT IMAGE HOLDER -->
+                              <div class="info">
+                                <div class="top">
+                                  <div class="left">
+                                    <span class="name">Large Alexa Red Epic</span>
+                                  </div>
+                                  <div class="right">
+                                    
+                                    <div class="stars five"></div> <span class="price">$750 / $500 / $250</span>
+                                  </div> 
+                                </div><!-- TOP -->
+                                <div class="bottom">
+                                  <div class="content">
+                                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>  
+                                  </div>
+                                </div> <!-- BOTTOM -->
+                              </div> <!-- INFO -->
+                                
+                              </div><!-- INV PROD LEFT -->
+                              <div class="inv-prod-right">
+                                <div class="top">
+                                  <h4>available / total</h4>
+                                  <span class="inventory-remaining">44 / 100</span>
+                                </div><!-- TOP -->
+                                <div class="buttons">
+                                  <div class="btn-top">
+                                    <div class="btn white">Edit</div>
+                                    <div class="btn white">Duplicate</div>
+                                  </div>
+                                  <div class="btn-btm">
+                                    <div class="btn grey">Archive</div>
+                                    <div class="btn grey">Delete</div>
+                                  </div>
+                                </div>
+                              </div><!-- INV PROD RIGHT -->
+                            </div><!-- PRODUCT -->
+                          </li>
+                        </ul><!-- PRODUCT LIST -->
+                        
+                      </div><!-- SUB CATEGORY BLOCK -->
+                      
+                    </li>
+
+                    <li>
+                      <div class="category-block">
+                        <div class="cat-header">
+                          <h2>lighting &amp; grip</h2>
+                          <span class="count">6</span>
+                          <span class="toggle">&mdash;</span>
+                        </div><!-- CAT HEADER -->
+                        <ul class="sub-cat-list visuallyhidden">
+
+                          <li>
+                            <div class="sub-category-block">
+                              <div class="sub-cat-header">
+                                <h3>Cameras</h3>
+                                <span class="count">4</span>
+                                
+                              </div><!-- SUB CAT HEADER -->
+
+                              <ul class="product-list">
+
+                                <li>
+                                  <div class="product">
+
+                                    <div class="inv-prod-left">
+                                      <div class="product-image-holder">
+                                      <img class="product-main" src="./images/alexa-epic.png" />
+                                    </div><!-- PRODUCT IMAGE HOLDER -->
+                                    <div class="info">
+                                      <div class="top">
+                                        <div class="left">
+                                          <span class="name">Large Alexa Red Epic</span>
+                                        </div>
+                                        <div class="right">
+                                          
+                                          <div class="stars five"></div> <span class="price">$750 / $500 / $250</span>
+                                        </div> 
+                                      </div><!-- TOP -->
+                                      <div class="bottom">
+                                        <div class="content">
+                                          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>  
+                                        </div>
+                                      </div> <!-- BOTTOM -->
+                                    </div> <!-- INFO -->
+                                      
+                                    </div><!-- COL MD 7 -->
+                                    <div class="inv-prod-right">
+                                      <div class="top">
+                                        <h4>available / total</h4>
+                                        <span class="inventory-remaining">44 / 100</span>
+                                      </div><!-- TOP -->
+                                      <div class="buttons">
+                                        <div class="btn-top">
+                                          <div class="btn white">Edit</div>
+                                          <div class="btn white">Duplicate</div>
+                                        </div>
+                                        <div class="btn-btm">
+                                          <div class="btn grey">Archive</div>
+                                          <div class="btn grey">Delete</div>
+                                        </div>
+                                      </div>
+                                      
+                                    </div><!-- COL MD 3 -->
+                                      
+
+                                    
+                                  </div><!-- PRODUCT -->
+                                </li>
+                                <li>
+                                  <div class="product">
+
+                                    <div class="inv-prod-left">
+                                      <div class="product-image-holder">
+                                      <img class="product-main" src="./images/alexa-epic.png" />
+                                    </div><!-- PRODUCT IMAGE HOLDER -->
+                                    <div class="info">
+                                      <div class="top">
+                                        <div class="left">
+                                          <span class="name">Large Alexa Red Epic</span>
+                                        </div>
+                                        <div class="right">
+                                          
+                                          <div class="stars five"></div> <span class="price">$750 / $500 / $250</span>
+                                        </div> 
+                                      </div><!-- TOP -->
+                                      <div class="bottom">
+                                        <div class="content">
+                                          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>  
+                                        </div>
+                                      </div> <!-- BOTTOM -->
+                                    </div> <!-- INFO -->
+                                      
+                                    </div><!-- COL MD 7 -->
+                                    <div class="inv-prod-right">
+                                      <div class="top">
+                                        <h4>available / total</h4>
+                                        <span class="inventory-remaining">44 / 100</span>
+                                      </div><!-- TOP -->
+                                      <div class="buttons">
+                                        <div class="btn-top">
+                                          <div class="btn white">Edit</div>
+                                          <div class="btn white">Duplicate</div>
+                                        </div>
+                                        <div class="btn-btm">
+                                          <div class="btn grey">Archive</div>
+                                          <div class="btn grey">Delete</div>
+                                        </div>
+                                      </div>
+                                      
+                                    </div><!-- COL MD 3 -->
+                                  </div><!-- PRODUCT -->
+                                </li>
+                                <li>
+                                  <div class="product">
+
+                                    <div class="inv-prod-left">
+                                      <div class="product-image-holder">
+                                      <img class="product-main" src="./images/alexa-epic.png" />
+                                    </div><!-- PRODUCT IMAGE HOLDER -->
+                                    <div class="info">
+                                      <div class="top">
+                                        <div class="left">
+                                          <span class="name">Large Alexa Red Epic</span>
+                                        </div>
+                                        <div class="right">
+                                          
+                                          <div class="stars five"></div> <span class="price">$750 / $500 / $250</span>
+                                        </div> 
+                                      </div><!-- TOP -->
+                                      <div class="bottom">
+                                        <div class="content">
+                                          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>  
+                                        </div>
+                                      </div> <!-- BOTTOM -->
+                                    </div> <!-- INFO -->
+                                      
+                                    </div><!-- COL MD 7 -->
+                                    <div class="inv-prod-right">
+                                      <div class="top">
+                                        <h4>available / total</h4>
+                                        <span class="inventory-remaining">44 / 100</span>
+                                      </div><!-- TOP -->
+                                      <div class="buttons">
+                                        <div class="btn-top">
+                                          <div class="btn white">Edit</div>
+                                          <div class="btn white">Duplicate</div>
+                                        </div>
+                                        <div class="btn-btm">
+                                          <div class="btn grey">Archive</div>
+                                          <div class="btn grey">Delete</div>
+                                        </div>
+                                      </div>
+                                      
+                                    </div><!-- COL MD 3 -->
+                                  </div><!-- PRODUCT -->
+                                </li>
+                                <li>
+                                  <div class="product">
+
+                                    <div class="inv-prod-left">
+                                      <div class="product-image-holder">
+                                      <img class="product-main" src="./images/alexa-epic.png" />
+                                    </div><!-- PRODUCT IMAGE HOLDER -->
+                                    <div class="info">
+                                      <div class="top">
+                                        <div class="left">
+                                          <span class="name">Large Alexa Red Epic</span>
+                                        </div>
+                                        <div class="right">
+                                          
+                                          <div class="stars five"></div> <span class="price">$750 / $500 / $250</span>
+                                        </div> 
+                                      </div><!-- TOP -->
+                                      <div class="bottom">
+                                        <div class="content">
+                                          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>  
+                                        </div>
+                                      </div> <!-- BOTTOM -->
+                                    </div> <!-- INFO -->
+                                      
+                                    </div><!-- COL MD 7 -->
+                                    <div class="inv-prod-right">
+                                      <div class="top">
+                                        <h4>available / total</h4>
+                                        <span class="inventory-remaining">44 / 100</span>
+                                      </div><!-- TOP -->
+                                      <div class="buttons">
+                                        <div class="btn-top">
+                                          <div class="btn white">Edit</div>
+                                          <div class="btn white">Duplicate</div>
+                                        </div>
+                                        <div class="btn-btm">
+                                          <div class="btn grey">Archive</div>
+                                          <div class="btn grey">Delete</div>
+                                        </div>
+                                      </div>
+                                      
+                                    </div><!-- COL MD 3 -->
+                                  </div><!-- PRODUCT -->
+                                </li>
+                              </ul>
+                            </div><!-- SUB CATEGORY BLOCK -->
+                          </li>
+                  </ul><!-- SUB CAT LIST -->
+
+
+
+              {{!-- <div class="inventory-item">
+								<div class="image"></div>
+								<div class="info">
+									<div class="title">RED EPIC GOLD PACKAGE</div>
+									<div class="price">Day Price: $250</div>
+									<div class="price">Week Price: $1,000</div>
+								</div> <!-- INFO -->
+								<div class="buttons">
+									<div class="btn">Edit</div>
+									<div class="btn">Duplicate</div>
+									<div class="btn">Archive</div>
+								</div>
+							</div> <!-- INVENTORY ITEM -->
+							<div class="inventory-item">
+								<div class="image"></div>
+								<div class="info">
+									<div class="title">RED EPIC GOLD PACKAGE</div>
+									<div class="price">Day Price: $250</div>
+									<div class="price">Week Price: $1,000</div>
+								</div> <!-- INFO -->
+								<div class="buttons">
+									<div class="btn">Edit</div>
+									<div class="btn">Duplicate</div>
+									<div class="btn">Archive</div>
+								</div>
+							</div>  --}}<!-- INVENTORY ITEM -->
+
+            </div><!-- CAT BLOCK -->
+            </li>
+            <li>
+              <div class="category-block">
+                        <div class="cat-header">
+                          <h2>on set support</h2>
+                          <span class="count">6</span>
+                          <span class="toggle">&mdash;</span>
+                        </div><!-- CAT HEADER -->
+                        <ul class="sub-cat-list visuallyhidden">
+
+                          <li>
+                            <div class="sub-category-block">
+                              <div class="sub-cat-header">
+                                <h3>Cameras</h3>
+                                <span class="count">4</span>
+                                
+                              </div><!-- SUB CAT HEADER -->
+
+                              <ul class="product-list">
+
+                                <li>
+                                  <div class="product">
+
+                                    <div class="inv-prod-left">
+                                      <div class="product-image-holder">
+                                      <img class="product-main" src="./images/alexa-epic.png" />
+                                    </div><!-- PRODUCT IMAGE HOLDER -->
+                                    <div class="info">
+                                      <div class="top">
+                                        <div class="left">
+                                          <span class="name">Large Alexa Red Epic</span>
+                                        </div>
+                                        <div class="right">
+                                          
+                                          <div class="stars five"></div> <span class="price">$750 / $500 / $250</span>
+                                        </div> 
+                                      </div><!-- TOP -->
+                                      <div class="bottom">
+                                        <div class="content">
+                                          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>  
+                                        </div>
+                                      </div> <!-- BOTTOM -->
+                                    </div> <!-- INFO -->
+                                      
+                                    </div><!-- COL MD 7 -->
+                                    <div class="inv-prod-right">
+                                      <div class="top">
+                                        <h4>available / total</h4>
+                                        <span class="inventory-remaining">44 / 100</span>
+                                      </div><!-- TOP -->
+                                      <div class="buttons">
+                                        <div class="btn-top">
+                                          <div class="btn white">Edit</div>
+                                          <div class="btn white">Duplicate</div>
+                                        </div>
+                                        <div class="btn-btm">
+                                          <div class="btn grey">Archive</div>
+                                          <div class="btn grey">Delete</div>
+                                        </div>
+                                      </div>
+                                      
+                                    </div><!-- COL MD 3 -->
+                                      
+
+                                    
+                                  </div><!-- PRODUCT -->
+                                </li>
+                                <li>
+                                  <div class="product">
+
+                                    <div class="inv-prod-left">
+                                      <div class="product-image-holder">
+                                      <img class="product-main" src="./images/alexa-epic.png" />
+                                    </div><!-- PRODUCT IMAGE HOLDER -->
+                                    <div class="info">
+                                      <div class="top">
+                                        <div class="left">
+                                          <span class="name">Large Alexa Red Epic</span>
+                                        </div>
+                                        <div class="right">
+                                          
+                                          <div class="stars five"></div> <span class="price">$750 / $500 / $250</span>
+                                        </div> 
+                                      </div><!-- TOP -->
+                                      <div class="bottom">
+                                        <div class="content">
+                                          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>  
+                                        </div>
+                                      </div> <!-- BOTTOM -->
+                                    </div> <!-- INFO -->
+                                      
+                                    </div><!-- COL MD 7 -->
+                                    <div class="inv-prod-right">
+                                      <div class="top">
+                                        <h4>available / total</h4>
+                                        <span class="inventory-remaining">44 / 100</span>
+                                      </div><!-- TOP -->
+                                      <div class="buttons">
+                                        <div class="btn-top">
+                                          <div class="btn white">Edit</div>
+                                          <div class="btn white">Duplicate</div>
+                                        </div>
+                                        <div class="btn-btm">
+                                          <div class="btn grey">Archive</div>
+                                          <div class="btn grey">Delete</div>
+                                        </div>
+                                      </div>
+                                      
+                                    </div><!-- COL MD 3 -->
+                                  </div><!-- PRODUCT -->
+                                </li>
+                                <li>
+                                  <div class="product">
+
+                                    <div class="inv-prod-left">
+                                      <div class="product-image-holder">
+                                      <img class="product-main" src="./images/alexa-epic.png" />
+                                    </div><!-- PRODUCT IMAGE HOLDER -->
+                                    <div class="info">
+                                      <div class="top">
+                                        <div class="left">
+                                          <span class="name">Large Alexa Red Epic</span>
+                                        </div>
+                                        <div class="right">
+                                          
+                                          <div class="stars five"></div> <span class="price">$750 / $500 / $250</span>
+                                        </div> 
+                                      </div><!-- TOP -->
+                                      <div class="bottom">
+                                        <div class="content">
+                                          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>  
+                                        </div>
+                                      </div> <!-- BOTTOM -->
+                                    </div> <!-- INFO -->
+                                      
+                                    </div><!-- COL MD 7 -->
+                                    <div class="inv-prod-right">
+                                      <div class="top">
+                                        <h4>available / total</h4>
+                                        <span class="inventory-remaining">44 / 100</span>
+                                      </div><!-- TOP -->
+                                      <div class="buttons">
+                                        <div class="btn-top">
+                                          <div class="btn white">Edit</div>
+                                          <div class="btn white">Duplicate</div>
+                                        </div>
+                                        <div class="btn-btm">
+                                          <div class="btn grey">Archive</div>
+                                          <div class="btn grey">Delete</div>
+                                        </div>
+                                      </div>
+                                      
+                                    </div><!-- COL MD 3 -->
+                                  </div><!-- PRODUCT -->
+                                </li>
+                                <li>
+                                  <div class="product">
+
+                                    <div class="inv-prod-left">
+                                      <div class="product-image-holder">
+                                      <img class="product-main" src="./images/alexa-epic.png" />
+                                    </div><!-- PRODUCT IMAGE HOLDER -->
+                                    <div class="info">
+                                      <div class="top">
+                                        <div class="left">
+                                          <span class="name">Large Alexa Red Epic</span>
+                                        </div>
+                                        <div class="right">
+                                          
+                                          <div class="stars five"></div> <span class="price">$750 / $500 / $250</span>
+                                        </div> 
+                                      </div><!-- TOP -->
+                                      <div class="bottom">
+                                        <div class="content">
+                                          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>  
+                                        </div>
+                                      </div> <!-- BOTTOM -->
+                                    </div> <!-- INFO -->
+                                      
+                                    </div><!-- COL MD 7 -->
+                                    <div class="inv-prod-right">
+                                      <div class="top">
+                                        <h4>available / total</h4>
+                                        <span class="inventory-remaining">44 / 100</span>
+                                      </div><!-- TOP -->
+                                      <div class="buttons">
+                                        <div class="btn-top">
+                                          <div class="btn white">Edit</div>
+                                          <div class="btn white">Duplicate</div>
+                                        </div>
+                                        <div class="btn-btm">
+                                          <div class="btn grey">Archive</div>
+                                          <div class="btn grey">Delete</div>
+                                        </div>
+                                      </div>
+                                      
+                                    </div><!-- COL MD 3 -->
+                                  </div><!-- PRODUCT -->
+                                </li>
+                              </ul>
+                            </div><!-- SUB CATEGORY BLOCK -->
+                          </li>
+                  </ul><!-- SUB CAT LIST -->
+
+
+
+              {{!-- <div class="inventory-item">
+                <div class="image"></div>
+                <div class="info">
+                  <div class="title">RED EPIC GOLD PACKAGE</div>
+                  <div class="price">Day Price: $250</div>
+                  <div class="price">Week Price: $1,000</div>
+                </div> <!-- INFO -->
+                <div class="buttons">
+                  <div class="btn">Edit</div>
+                  <div class="btn">Duplicate</div>
+                  <div class="btn">Archive</div>
+                </div>
+              </div> <!-- INVENTORY ITEM -->
+              <div class="inventory-item">
+                <div class="image"></div>
+                <div class="info">
+                  <div class="title">RED EPIC GOLD PACKAGE</div>
+                  <div class="price">Day Price: $250</div>
+                  <div class="price">Week Price: $1,000</div>
+                </div> <!-- INFO -->
+                <div class="buttons">
+                  <div class="btn">Edit</div>
+                  <div class="btn">Duplicate</div>
+                  <div class="btn">Archive</div>
+                </div>
+              </div>  --}}<!-- INVENTORY ITEM -->
+
+            </div><!-- CAT BLOCK -->
+            </li>
+            </ul>
+            </div>
+          </div> <!-- COL -->
+        </div> <!-- ROW INVENTORY AVAILABLE -->
+      </div><!-- #MY-SHOP -->
+        {{!-- <div class="row" id="inventory-rented">
+          <div class="col-lg-10 col-lg-offset-1 col">
+            <div>
+              <h4>Your Rented Inventory (33 Items)</h4>
+              <div class="inventory-item">
+								<div class="image"></div>
+								<div class="info">
+									<div class="title">RED EPIC GOLD PACKAGE</div>
+									<div class="price">Order: #4485934</div>
+									<div class="price">Date: 04/01/2015 - 05/01/2015</div>
+									<div class="price">Rented By: Productions 101</div>
+								</div> <!-- INFO -->
+							</div> <!-- INVENTORY ITEM -->
+            </div>
+          </div> <!-- COL -->
+        </div> <!-- ROW INVENTORY RENTED --> --}}
+
+
+      </div> <!-- MY SHOP INVENTORY -->
+
+    </div> <!-- CONTAINER MY SHOP-->
+
+
+
+    <div id="edit-payment-fancy" class="col-lg-7">
+      <h3>Edit Payment Profile</h3>
+      <form role="form" class="form-inline">
+        <label>Profile Name</label>
+        <input type="text" placeholder=""></input><br/>
+        <label>Payment Type</label>
+        <select class="form-control">
+          <option>Credit Card</option>
+          <option>Credit Card2</option>
+        </select><br/>
+        <label class="checkbox-inline first inner">
+          <input type="checkbox" class="checkbox" id="inlineCheckbox1" value="cameras"> <img src="./images/cc_amex.png" />
+        </label><br/>
+        <label class="checkbox-inline inner">
+          <input type="checkbox" class="checkbox" id="inlineCheckbox2" value="lighting"> <img src="./images/cc_visa.png" />     
+        </label><br/>
+        <label class="checkbox-inline inner">
+          <input type="checkbox" class="checkbox" id="inlineCheckbox3" value="option3"> <img src="./images/cc_discover.png" />
+        </label><br/>
+        <label class="checkbox-inline inner">
+          <input type="checkbox" class="checkbox" id="inlineCheckbox3" value="option3"> <img src="./images/cc_mastercard.png" />
+        </label>
+        <div class="buttons">
+          <button type="submit" class="btn btn-default">CANCEL</button>
+          <button type="submit" class="btn btn-default">SAVE CHANGES</button>
+          <a href="#" class="delete">Delete this payment profile</a>
+        </div>
+      </form>
+
+    </div> <!-- EDIT PAYMENT FANCYBOX -->
+
+
+    <div id="fancy-add-item">
+    	<div class="top">
+        <span class="name">List an Item</span>
+      </div> <!-- TOP -->
+      <form role="form">
+        <div class="form-group">
+        	<div class="left">Type:</div>
+        	<div class="right">
+        		<select class="form-control">
+            	<option>Equipment</option>
+           	</select>
+        	</div>
+        </div> <!-- FORM GROUP -->
+        <div class="form-group">
+        	<div class="left">Upload a photo:</div>
+        	<div class="right">
+        	</div>
+        </div> <!-- FORM GROUP -->
+        <div class="form-group">
+        	<div class="left">Item Name:</div>
+        	<div class="right">
+        		<input class="form-control"></input>
+        	</div>
+        </div> <!-- FORM GROUP -->
+        <div class="form-group">
+        	<div class="left">Manufacturer:</div>
+        	<div class="right">
+        		<select class="form-control">
+            	<option>SONY</option>
+           	</select>
+        	</div>
+        </div> <!-- FORM GROUP -->
+        <div class="form-group">
+        	<div class="left">Serial#:</div>
+        	<div class="right">
+        		<input class="form-control"></input>
+        	</div>
+        </div> <!-- FORM GROUP -->
+        <div class="form-group">
+        	<div class="left">Weight:</div>
+        	<div class="right">
+        		<input class="form-control"></input>
+        	</div>
+        </div> <!-- FORM GROUP -->
+        <div class="form-group">
+        	<div class="left">Size:</div>
+        	<div class="right">
+        		<input class="form-control"></input>
+        	</div>
+        </div> <!-- FORM GROUP -->
+        <div class="form-group">
+        	<div class="left">Quantity In Stock:</div>
+        	<div class="right">
+        		<input class="form-control"></input>
+        	</div>
+        </div> <!-- FORM GROUP -->
+        <div class="form-group">
+        	<div class="left">Description:</div>
+        	<div class="right">
+        		<textarea class="form-control"></textarea>
+        	</div>
+        </div> <!-- FORM GROUP -->
+        <div class="form-group">
+        	<div class="left">Approve for<br/>Quick Checkout:</div>
+        	<div class="right">
+        		<input type="checkbox" class="form-control">
+        	</div>
+        </div> <!-- FORM GROUP -->
+        <div class="form-group">
+        	<div class="left">Shipping Profile:</div>
+        	<div class="right">
+        		<select class="form-control">
+            	<option>USA</option>
+           	</select>
+        	</div>
+        </div> <!-- FORM GROUP -->
+        <div class="form-group">
+        	<div class="left">Payment Profile:</div>
+        	<div class="right">
+        		<select class="form-control">
+            	<option>50% Deposit</option>
+           	</select>
+        	</div>
+        </div> <!-- FORM GROUP -->
+        <div class="form-group">
+        	<div class="left">Price:</div>
+        	<div class="right">
+        		<div class="day-label">Day:</div> <input class="form-control day"></input> <div class="day-label">Week:</div> <input class="form-control day"></input>
+        	</div>
+        </div> <!-- FORM GROUP -->
+        <div class="form-group submit">
+        	<button type="submit" class="btn btn-default attach">ADD ITEM</button>
+          <button type="submit" class="btn btn-default">CANCEL</button>
+        </div>
+
+
+      </form>
+    </div>
+
+
+    {{>footer}}
+
+
+    {{>bottom-includes}}
+</body>

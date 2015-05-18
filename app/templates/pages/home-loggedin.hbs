@@ -1,0 +1,78 @@
+---
+title: Home Logged In
+---
+<body class="home-loggedin">
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    {{>header}}
+
+
+    <div id="bg" class="container"></div>
+
+    <div class="container">
+     
+
+      <div class="jumbotron">
+        <h1>Everything you need on location.</h1>
+        <h3>Rent film production equipment from over 10,000 companies nationwide.</h3>
+        <form class="form-inline" role="form">
+          <div class="form-group">
+            <input type="text" class="form-control" id="input-what" placeholder="What Are you Looking For?">
+            <input type="text" class="form-control" id="input-where" placeholder="Where Are You Shooting?">
+            <input type="date" class="form-control" id="input-start" placeholder="Start Date" value="START DATE">
+            <input type="date" class="form-control" id="input-end" placeholder="End Date">
+          </div>
+          <button type="submit" class="btn btn-default">Search</button>
+        </form>
+      </div>
+
+      <div class="row sections">
+
+        <div class="col-lg-4 col-md-4 col">
+          <div>
+            <h2>GET HELP</h2>
+            <ul>
+              <li><a href="#">See How We Work</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Frequently Asked Questions</a></li>
+              <li><a href="#">Talk To A Representative</a></li>
+              <li><a href="#">Sign Up For News</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col">
+          <div>
+            <h2>RENTALS</h2>
+            <ul>
+              <li><a href="#">Find A Company You Love</a></li>
+              <li><a href="#">Search For Equipment</a></li>
+              <li><a href="#">Check On Your Orders</a></li>
+              <button class="btn btn-default">SEE NEW EQUIPMENT</button>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col">
+          <div>
+            <h2>FEATURES</h2>
+            <ul>
+              <li><a href="#">Add Inventory To Your Shop</a></li>
+              <li><a href="#">Customize Shop Settings</a></li>
+              <li><a href="#">Get Quotes Quicker Than Ever</a></li>
+              <button class="btn btn-default gray">LEARN MORE</button>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+
+    {{>footer}}
+
+
+    {{>bottom-includes}}
+</body>

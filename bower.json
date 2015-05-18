@@ -1,0 +1,12 @@
+{
+  "name": "drive-thru",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass-official": "~3.2.0",
+    "modernizr": "~2.8.2",
+    "fancybox": "~2.1.5"
+  },
+  "devDependencies": {
+    "fancybox": "~2.1.5"
+  }
+}

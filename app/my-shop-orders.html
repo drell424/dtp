@@ -1,0 +1,677 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>My Shop Orders</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/fancybox/source/jquery.fancybox.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <script src="//use.typekit.net/sza3itr.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {
+           filter: none;
+        }
+      </style>
+    <![endif]-->
+  </head>
+  
+  
+<body class="shop-orders">
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="container-fluid gradient" id="header">
+  <div id="top-menu">
+    <a href="#"><img src="./images/top-menu-logo.png" /></a>
+    <ul class="pull-right">
+      <li class="help"><a href="#">Help</a></li>
+      <li class="cart"><a href="#"><img src="./images/top-menu-cart.png" /></a></li>
+    </ul>
+  </div>
+  <div class="container">
+    <div id="site-header">
+      <a class="logo"><img src="./images/icn_DTP_logo_Nav@2x.png" /></a>
+      <form class="form-inline" role="form">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="What Are you Looking For?">
+          <button type="submit" class="btn btn-default">Search</button>
+        </div>
+      </form>
+      
+      <div class="dropdown-link" id="account-dropdown">
+        <div class="circle account">
+        </div>
+        <div class="label">MY ACCOUNT <div class="triangle"></div></div>
+        <ul>
+          <li></li>
+          <li><a href="#">ACCOUNT SETTINGS</a></li>
+          <li><a href="#">MY ORDERS</a></li>
+          <li><a href="#">MY REVIEWS</a></li>
+          <li><a href="#">LOG OUT</a></li>
+        </ul>
+      </div>
+      <div class="dropdown-link" id="shop-dropdown">
+        <div class="circle shop">
+        </div>
+        <div class="label">MY SHOP <div class="triangle"></div></div>
+      </div>
+      
+    </div> <!-- SITE HEADER -->
+  </div> 
+</div> <!-- HEADER -->
+
+
+    <!-- MAIN CONTENT -->
+
+    <div class="container" id="my-shop">
+      <div class="row" id="nav">
+        <div class="col-lg-10 col-lg-offset-1">
+          <ul>
+            <li><a>SHOP SETTINGS</a></li>
+            <li><a class="active">SHOP ORDERS</a></li>
+            <li><a>MANAGE INVENTORY</a></li>
+            <li><a>RATINGS &amp; REVIEWS</a></li>
+          </ul>
+       </div> <!-- COL NAV -->
+      </div> <!-- ROW -->
+
+      <div id="my-shop-orders">
+
+        <div class="row" id="shop-header">
+          <div class="col-lg-10 col-lg-offset-1 col">
+            <div>
+              MY SHOP
+              <a>View Shop</a>
+            </div>
+            
+          </div> <!-- COL -->
+        </div> <!-- ROW SHOP HEADER -->
+
+
+        <div class="row section-title">
+          <div class="col-lg-10 col-lg-offset-1 col">
+            <div>In Progress <div class="count">1</div></div>
+          </div>
+        </div> <!-- ROW SECTION TITLE -->
+  
+        <div class="row order-item">
+          <div class="col-lg-10 col-lg-offset-1 col">
+            <div>
+              <div class="top">
+                <div class="order-number"><div class="dot"></div> Order #1743243</div>
+                <div class="order-name">INQUIRY: <span>LEICA C300 CAMERA LENS</span></div>
+                <div class="status btn processing">STATUS: PROCESSING</div>
+              </div> <!-- TOP -->
+              <div class="bottom">
+                <div class="colophon">
+                  <div class="left">
+                    <div class="circle"><div class="inner-circle"></div></div>
+                    <div class="time">5:29pm</div>
+                  </div> <!-- LEFT -->
+                  <div class="right">
+                    <div class="name">Mark Twain</div>
+                    <div class="company">Little Rock Productions</div>
+                    <div class="stars five"></div>
+                  </div> <!-- RIGHT -->
+                </div> <!-- COLOPHON -->
+                <div class="location">
+                  <div class="topline"><img src="./images/location-marker.png" /> LOCATION:&nbsp;<span>BROOKLYN, NY 11222</span></div>
+                  <div class="btn">MANAGE ORDER</div>
+                </div> <!-- LOCATION -->
+                <div class="type">
+                  <div class="topline">TYPE:&nbsp;<span>FEATURE FILM</span></div>
+                  <div class="btn">VIEW QUOTE</div>
+                </div> <!-- TYPE -->
+                <div class="date">
+                  <div class="topline">DATE:&nbsp;&nbsp;&nbsp;&nbsp;<span>June 1-6, 2014</span></div>
+                  <div class="btn">VIEW IN CALENDAR</div>
+                </div> <!-- DATE -->
+              </div> <!-- BOTTOM -->
+            </div>
+          </div> <!-- COL -->
+        </div> <!-- ROW ORDER ITEM -->
+
+        <div class="row order-item processing">
+          <div class="col-lg-10 col-lg-offset-1 col">
+            <div>
+              <div class="top">
+                <div class="order-number">Processing</div>
+              </div> <!-- TOP -->
+              <div class="bottom">
+                <ul class="equipment-list">
+                  <li><div class="count">1</div>RED EPIC PLATINUM PACKAGE
+                    <ul>
+                      <li><div class="count">1</div>Red EPic - M 5k Digital Camera Body</li>
+                      <li><div class="count">1</div>Red EPic - M 5k Digital Camera Body</li>
+                      <li><div class="count">1</div>Red EPic - M 5k Digital Camera Body</li>
+                      <li><div class="count">1</div>Red EPic - M 5k Digital Camera Body</li>
+                      <li><div class="count">1</div>Red EPic - M 5k Digital Camera Body</li>
+                      <li><div class="count">1</div>Red EPic - M 5k Digital Camera Body</li>
+                      <li><div class="count">1</div>Red EPic - M 5k Digital Camera Body</li>
+                      <li><div class="count">1</div>Red EPic - M 5k Digital Camera Body</li>
+                    </ul>
+                  </li>
+                  <li><div class="count">3</div>EPIC SYNC CABLE</li>
+                </ul>
+              </div> <!-- BOTTOM -->
+            </div>
+          </div> <!-- COL -->
+        </div> <!-- ROW ORDER ITEM -->
+
+        <div class="row order-item transaction">
+          <div class="col-lg-10 col-lg-offset-1 col">
+            <div>
+              <div class="top">
+                <div class="order-number">Transaction ID #1743243</div>
+              </div> <!-- TOP -->
+              <div class="bottom">
+                <div class="left">
+                  <div class="name">CINDY SHERMAN</div>
+                  <input type="text" class="form-control" id="insurance" placeholder="Insurance 2009-2010"><div class="check"></div>
+                  <input type="text" class="form-control" id="agree" placeholder="Agree to the Terms of Rental"><div class="check"></div>
+                </div> <!-- LEFT -->
+                <div class="right">
+                  <div class="receipt">
+                      <div class="item">
+                        <div class="left">
+                          <div class="name">Item Total</div>
+                        </div>
+                        <div class="price">$2,000</div>
+                      </div> <!-- ITEM -->
+                      <div class="item">
+                        <div class="left">
+                          <div class="name">Shipping</div>
+                        </div>
+                        <div class="price">$100</div>
+                      </div> <!-- ITEM -->
+                      <div class="item total">
+                        <div class="left">
+                          <div class="name">Order Total</div>
+                        </div>
+                        <div class="price">$4,000</div>
+                      </div> <!-- ITEM TOTAL -->
+                      <div class="item total paid">
+                        <div class="left">
+                          <div class="name">PAID IN FULL</div>
+                        </div>
+                      </div> <!-- ITEM TOTAL -->
+                      <div class="item total">
+                        <div class="left">
+                          <div class="name">Balance Due:</div>
+                        </div>
+                        <div class="price">$0.00</div>
+                      </div> <!-- ITEM TOTAL -->
+                    </div> <!-- RECEIPT -->
+                </div> <!-- RIGHT -->
+              </div> <!-- BOTTOM -->
+            </div>
+          </div> <!-- COL -->
+        </div> <!-- ROW ORDER ITEM -->
+
+        <div class="row order-item status">
+          <div class="col-lg-10 col-lg-offset-1 col">
+            <div>
+              <div class="bottom">
+                <div class="left">
+                  <div class="name">Order Status: </div>
+                    <select class="form-control">
+                      <option>PROCESSING</option>
+                    </select>
+                  
+                  <div class="name">Delivery: Pick Up</div>
+                </div> <!-- LEFT -->
+                <div class="right">
+                  <div>DUE IN:</div>
+                  <div>15 DAYS</div>
+                </div> <!-- RIGHT -->
+              </div> <!-- BOTTOM -->
+            </div>
+          </div> <!-- COL -->
+        </div> <!-- ROW ORDER ITEM -->
+
+
+  
+        <div class="row section-title">
+          <div class="col-lg-10 col-lg-offset-1 col">
+            <div>New Orders <div class="count">1</div></div>
+  
+          </div>
+        </div> <!-- ROW SECTION TITLE -->
+  
+        <div class="row order-item">
+          <div class="col-lg-10 col-lg-offset-1 col">
+            <div>
+              <div class="top">
+                <div class="order-number"><div class="dot"></div> Order #1743243</div>
+                <div class="order-name">INQUIRY: <span>LEICA C300 CAMERA LENS</span></div>
+                <div class="status btn">STATUS: NEW ORDER</div>
+              </div> <!-- TOP -->
+              <div class="bottom">
+                <div class="colophon">
+                  <div class="left">
+                    <div class="circle"><div class="inner-circle"></div></div>
+                    <div class="time">5:29pm</div>
+                  </div> <!-- LEFT -->
+                  <div class="right">
+                    <div class="name">Mark Twain</div>
+                    <div class="company">Little Rock Productions</div>
+                    <div class="stars five"></div>
+                  </div> <!-- RIGHT -->
+                </div> <!-- COLOPHON -->
+                <div class="location">
+                  <div class="topline"><img src="./images/location-marker.png" /> LOCATION:&nbsp;<span>BROOKLYN, NY 11222</span></div>
+                  <div class="btn">MANAGE ORDER</div>
+                </div> <!-- LOCATION -->
+                <div class="type">
+                  <div class="topline">TYPE:&nbsp;<span>FEATURE FILM</span></div>
+                  <div class="btn">VIEW QUOTE</div>
+                </div> <!-- TYPE -->
+                <div class="date">
+                  <div class="topline">DATE:&nbsp;&nbsp;&nbsp;&nbsp;<span>June 1-6, 2014</span></div>
+                  <div class="btn">VIEW IN CALENDAR</div>
+                </div> <!-- DATE -->
+              </div> <!-- BOTTOM -->
+            </div>
+          </div> <!-- COL -->
+        </div> <!-- ROW ORDER ITEM -->
+
+        <div class="row order-item message-to">
+
+          <div class="col-lg-9 col-lg-offset-1 col">
+            <div>
+              <form role="form" class="form-inline">
+
+                <div class="message-tab yes">
+                  <h1>Yes, this rentail is available!</h1>
+                  <div>
+                    <div class="form-group check">
+                      <label class="checkbox-inline first">
+                        <input type="checkbox" id="inlineCheckbox1" value="unavailable"> APPROVE 'PRODUCTION 101' TO CHECK OUT FOR THESE DATES
+                      </label>
+                    </div> <!-- FORM GROUP CHECK -->
+                    <div class="info-one">MAKE A SPECIAL OFFER FOR 'PRODUCTION 101' FOR THESE DATES</div>
+                    <div class="info-two">If 'PRODUCTION 101' books your equipment, the rental will be automatically accepted at the special price you offer here</div>
+                    <div class="form-group rental-form">
+                      <div class="left">
+                        EQUIPMENT:
+                      </div>
+                      <div class="right">
+                        <ul class="equipment-list">
+                          <li><div class="count">1</div>RED EPIC PLATINUM PACKAGE</li>
+                          <li><div class="count">3</div>EPIC SYNC CABLE</li>
+                          <li><div class="count">+</div>ADD MORE EQUIPMENT <input type="text" class="form-control add-more"></li>
+                        </ul>
+                      </div>
+                    </div> <!-- FORM GROUP RENTAL -->
+                    <div class="form-group rental-form">
+                      <div class="left">
+                        CHECKOUT:
+                      </div>
+                      <div class="right">
+                        <input type="date" class="form-control" id="input-checkout" placeholder="Checkout" value="checkout">
+                      </div>
+                    </div> <!-- FORM GROUP RENTAL -->
+                    <div class="form-group rental-form">
+                      <div class="left">
+                        RETURN:
+                      </div>
+                      <div class="right">
+                        <input type="date" class="form-control" id="input-return" placeholder="Return" value="return">
+                      </div>
+                    </div> <!-- FORM GROUP RENTAL -->
+                    <div class="form-group rental-form">
+                      <div class="left">
+                        PRICE:
+                      </div>
+                      <div class="right">
+                        <input type="text" placeholder="$XXX.XX" class="form-control add-more">
+                      </div>
+                    </div> <!-- FORM GROUP RENTAL -->
+                    <div class="form-group rental-form">
+                      <div class="left">
+                        DELIVERY:
+                      </div>
+                      <div class="right">
+                        <select class="form-control">
+                          <option>PICK-UP</option>
+                        </select>
+                      </div>
+                    </div> <!-- FORM GROUP RENTAL -->
+                    <div class="form-group rental-form">
+                      <div class="left">
+                        PAYMENT:
+                      </div>
+                      <div class="right">
+                        <select class="form-control">
+                          <option>CREDIT CARD HOLD</option>
+                        </select>
+                      </div>
+                    </div> <!-- FORM GROUP RENTAL -->
+                    <div class="form-group rental check">
+                      <label class="checkbox-inline first">
+                        Verify Insurance Certificate: <input type="checkbox" id="insurance-check" value="insurance-check">
+                      </label>
+                      <label class="checkbox-inline second">
+                        Verify Tax Exemption: <input type="checkbox" id="tax-check" value="tax-check">
+                      </label>
+                    </div> <!-- FORM GROUP CHECK -->
+                    <div class="form-group message">
+                      <textarea class="form-control" placeholder="Add a message here"></textarea>
+                    </div> <!-- FORM GROUP MESSAGE -->
+                    <div class="form-group submit">
+                      <button type="submit" class="btn btn-default">SAVE CHANGES</button>
+                      <button type="submit" class="btn btn-default attach">ATTACH DOCUMENT</button>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="message-tab sorry">
+                  <h1>Sorry, this rental not available</h1>
+                  <div>
+                    <div class="form-group check">
+                      <label class="checkbox-inline first">
+                        <input type="checkbox" id="inlineCheckbox1" value="unavailable"> THOSE DATES ARE UNAVAILABLE
+                      </label>
+                    </div> <!-- FORM GROUP CHECK -->
+                    <div class="form-group message">
+                      <textarea class="form-control" placeholder="Add a message here"></textarea>
+                    </div> <!-- FORM GROUP MESSAGE -->
+                    <div class="form-group submit">
+                      <button type="submit" class="btn btn-default">SAVE CHANGES</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="message-tab message">
+                  <h1>Send a message</h1>
+                  <div>
+                    <div class="form-group message">
+                      <textarea class="form-control" placeholder="Add a message here"></textarea>
+                    </div> <!-- FORM GROUP MESSAGE -->
+                    <div class="form-group submit">
+                      <button type="submit" class="btn btn-default">SAVE CHANGES</button>
+                    </div>
+                  </div>
+                </div>
+
+
+                
+
+
+              </form>
+            </div>
+          </div> <!-- COL -->
+
+          <div class="col-lg-1 col person-col">
+            <div class="person">
+              <div class="circle"><div class="inner-circle"></div></div>
+              <div class="name">ME</div>
+              <div class="time">5:29pm</div>
+            </div>
+          </div> <!-- COL -->
+        </div> <!-- ROW ORDER ITEM -->
+
+        <div class="row order-item message-from">
+           <div class="col-lg-1 col-lg-offset-1 col person-col">
+            <div class="person">
+              <div class="circle"><div class="inner-circle"></div></div>
+              <div class="name">ME</div>
+              <div class="time">5:29pm</div>
+            </div>
+          </div> <!-- COL -->
+
+          <div class="col-lg-9 col">
+            <div>
+              <form role="form" class="form-inline">
+                <div class="from-top">
+                  <div class="text">
+                    <p>hello,</p>
+
+                    <p>Vivamus dignissim metus vel libero ornare, ornare varius elit maximus. Sed sed tincidunt purus. Morbi non sem et quam tempus convallis. Maecenas eleifend dignissim massa. Cras nulla risus, vulputate quis imperdiet id, tristique eu felis. Donec laoreet nisl sed arcu pretium tristique.</p>
+
+                  </div>
+                  <div class="dates">
+                    <h4>INQUIRY DATES</h4>
+
+                  </div>
+                </div>
+                <div class="from-middle">
+                  <div class="equipment">
+                    <ul class="equipment-list">
+                      <li><div class="count">1</div>RED EPIC PLATINUM PACKAGE
+                        <ul>
+                          <li><div class="count">1</div>Red EPic - M 5k Digital Camera Body</li>
+                          <li><div class="count">1</div>Red EPic - M 5k Digital Camera Body</li>
+                          <li><div class="count">1</div>Red EPic - M 5k Digital Camera Body</li>
+                          <li><div class="count">1</div>Red EPic - M 5k Digital Camera Body</li>
+                          <li><div class="count">1</div>Red EPic - M 5k Digital Camera Body</li>
+                          <li><div class="count">1</div>Red EPic - M 5k Digital Camera Body</li>
+                          <li><div class="count">1</div>Red EPic - M 5k Digital Camera Body</li>
+                          <li><div class="count">1</div>Red EPic - M 5k Digital Camera Body</li>
+                        </ul>
+                      </li>
+                      <li><div class="count">3</div>EPIC SYNC CABLE</li>
+                    </ul>
+                  </div>
+                  <div class="info">
+                    <h4>PROJECT INFORMATION</h4>
+                    <div>RENTOR: <span>PRODUCTION 101</span></div>
+                    <div>PROJECT NAME: <span>PULP FICTION</span></div>
+                    <div>TYPE:
+                      <select class="form-control">
+                        <option>FEATURE FILM</option>
+                      </select>
+                    </div>
+                    <div><div class="rating">RATING:</div> <div class="stars five"></div></div>
+                  </div>
+                </div>
+                <div class="from-bottom">
+                  <div class="left">
+                    <div class="status btn">Upload Proof of Insurance</div>
+                    <div class="status btn">Upload Tax Exempt Form</div>
+                  </div> <!-- LEFT -->
+                  <div class="right">
+                    <div class="name">DELIVERY TYPE: </div>
+                    <select class="form-control">
+                      <option>DELIVERY</option>
+                      <option>PICK-UP</option>
+                    </select>
+                  </div> <!-- RIGHT -->
+                </div>
+              </form>
+            </div>
+          </div> <!-- COL -->
+        </div> <!-- MESSAGE FROM ROW -->
+
+
+  
+  
+        <div class="row section-title">
+          <div class="col-lg-10 col-lg-offset-1 col">
+            <div>New Orders <div class="count">1</div></div>
+  
+          </div>
+        </div> <!-- ROW SECTION TITLE -->
+  
+        <div class="row order-item">
+          <div class="col-lg-10 col-lg-offset-1 col">
+            <div>
+              <div class="top">
+                <div class="order-number"><div class="dot"></div> Order #1743243</div>
+                <div class="order-name">INQUIRY: <span>LEICA C300 CAMERA LENS</span></div>
+                <div class="status btn">STATUS: NEW ORDER</div>
+              </div> <!-- TOP -->
+              <div class="bottom">
+                <div class="colophon">
+                  <div class="left">
+                    <div class="circle"><div class="inner-circle"></div></div>
+                    <div class="time">5:29pm</div>
+                  </div> <!-- LEFT -->
+                  <div class="right">
+                    <div class="name">Mark Twain</div>
+                    <div class="company">Little Rock Productions</div>
+                    <div class="stars five"></div>
+                  </div> <!-- RIGHT -->
+                </div> <!-- COLOPHON -->
+                <div class="location">
+                  <div class="topline"><img src="./images/location-marker.png" /> LOCATION:&nbsp;<span>BROOKLYN, NY 11222</span></div>
+                  <div class="btn">MANAGE ORDER</div>
+                </div> <!-- LOCATION -->
+                <div class="type">
+                  <div class="topline">TYPE:&nbsp;<span>FEATURE FILM</span></div>
+                  <div class="btn">VIEW QUOTE</div>
+                </div> <!-- TYPE -->
+                <div class="date">
+                  <div class="topline">DATE:&nbsp;&nbsp;&nbsp;&nbsp;<span>June 1-6, 2014</span></div>
+                  <div class="btn">VIEW IN CALENDAR</div>
+                </div> <!-- DATE -->
+              </div> <!-- BOTTOM -->
+            </div>
+          </div> <!-- COL -->
+        </div> <!-- ROW ORDER ITEM -->
+  
+        <div class="row order-item">
+          <div class="col-lg-10 col-lg-offset-1 col">
+            <div>
+              <div class="top">
+                <div class="order-number"><div class="dot"></div> Order #1743243</div>
+                <div class="order-name">INQUIRY: <span>LEICA C300 CAMERA LENS</span></div>
+                <div class="status btn">STATUS: NEW ORDER</div>
+              </div> <!-- TOP -->
+              <div class="bottom">
+                <div class="colophon">
+                  <div class="left">
+                    <div class="circle"><div class="inner-circle"></div></div>
+                    <div class="time">5:29pm</div>
+                  </div> <!-- LEFT -->
+                  <div class="right">
+                    <div class="name">Mark Twain</div>
+                    <div class="company">Little Rock Productions</div>
+                    <div class="stars five"></div>
+                  </div> <!-- RIGHT -->
+                </div> <!-- COLOPHON -->
+                <div class="location">
+                  <div class="topline"><img src="./images/location-marker.png" /> LOCATION:&nbsp;<span>BROOKLYN, NY 11222</span></div>
+                  <div class="btn">MANAGE ORDER</div>
+                </div> <!-- LOCATION -->
+                <div class="type">
+                  <div class="topline">TYPE:&nbsp;<span>FEATURE FILM</span></div>
+                  <div class="btn">VIEW QUOTE</div>
+                </div> <!-- TYPE -->
+                <div class="date">
+                  <div class="topline">DATE:&nbsp;&nbsp;&nbsp;&nbsp;<span>June 1-6, 2014</span></div>
+                  <div class="btn">VIEW IN CALENDAR</div>
+                </div> <!-- DATE -->
+              </div> <!-- BOTTOM -->
+            </div>
+          </div> <!-- COL -->
+        </div> <!-- ROW ORDER ITEM -->
+
+      </div> <!-- MY SHOP ORDERS -->
+
+    </div> <!-- CONTAINER MY SHOP-->
+
+
+    <div class="container-fluid footer-background">
+  <div class="container">
+    <div class="footer">
+      <div class="logo">
+        <img src="./images/icn_DTP_footer_logo@2x.png" />
+      </div>
+      <div class="social">
+        <h3>Share With Friends</h3>
+        <a href=""><img src="./images/btn_footer_facebook@2x.png" /></a>
+        <a href=""><img src="./images/btn_footer_twitter@2x.png" /></a>
+        <a href=""><img src="./images/btn_footer_pinterest@2x.png" /></a>
+        <a href=""><img src="./images/btn_footer_googleplus@2x.png" /></a>
+      </div> <!-- SOCIAL -->
+      <div class="links">
+        <h3>Get to Know Us</h3>
+        <ul>
+          <li><a href="">About Drive Thru Production</a></li>
+          <li><a href="">How Renting Works</a></li>
+          <li><a href="">Our Policies</a></li>
+          <li><a href="">Our Guarantee</a></li>
+        </ul>
+      </div> <!-- LINKS -->
+      <div class="links">
+        <h3>Business Solutions</h3>
+        <ul>
+          <li><a href="">Join our Vendor Network</a></li>
+          <li><a href="">Learn About Company Accounts</a></li>
+          <li><a href="">Get Help Listing your Equipment</a></li>
+        </ul>
+      </div> <!-- LINKS -->
+      <div class="links">
+        <h3>Contact &amp; Help</h3>
+        <ul>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">Help</a></li>
+          <li><a href="">Suggest a New Vendor</a></li>
+          <li><a href="">Comments and Feedback</a></li>
+        </ul>
+      </div> <!-- LINKS -->
+    </div> <!-- FOOTER -->
+  </div>
+  <hr/>
+  <div class="container">
+    <div class="copyright">
+     2014 Drive Thru Productions, LLC. All Rights Reserved. <a href="#">Terms of Use</a>. <a href="#">Privacy Policy</a>.
+    </div>
+  </div>
+</div> <!-- FOOTER -->
+
+
+    <!-- build:js(.) scripts/vendor.js -->
+<!-- bower:js -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
+<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
+<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
+<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
+<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
+<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
+<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
+<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
+<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
+<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
+<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+<script src="bower_components/fancybox/source/jquery.fancybox.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+  e.src='//www.google-analytics.com/analytics.js';
+  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+  ga('create','UA-XXXXX-X');ga('send','pageview');
+</script>
+
+<!-- build:js({app,.tmp}) scripts/main.js -->
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+</body>
+  
+</html>

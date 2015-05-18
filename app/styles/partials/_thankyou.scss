@@ -1,0 +1,92 @@
+// THANK YOU
+
+body.thank-you{
+	background:#e9e9e9;
+}
+
+.container#thank-you{
+
+	.row{
+		margin-top:40px; 
+
+		h3{
+			@extend .proxima-semibold;
+			font-size:24px;
+			color:black;
+			margin-top:0px;
+		}
+
+		.thank-you-left{
+			height:225px;
+			padding-bottom:20px;
+
+			h4{
+				@extend .proxima-cond-regular;
+				font-size:15px;
+				color:black;
+				span{ color:gray; }
+			}
+
+			img.product-main{
+				width:30%;
+				height:auto;
+				float:left;
+			} 
+			div.info{
+				float:left;
+				width:70%;
+
+				.content{
+				  width:100%;
+				  float:right;
+				}
+
+				.top{
+				  float:left;
+				  width:100%;
+				  height:66px;
+				  line-height:78px;
+				  padding-right:10px;
+				  border-bottom: 1px solid black;
+				  margin-top:30px;
+
+				  span{
+				    @extend .proxima-cond-semibold;
+				    font-size:18px;
+				    color:black;
+
+				    &.name{
+				      float:left;
+				      margin-right:125px;
+				    }
+				    &.price{
+				      float:right;
+				      margin-left:40px;
+				    }
+				  }
+				} // TOP
+
+				
+
+			} // INFO
+		} // THANK YOU LEFT
+		.thank-you-right{
+			padding-top:40px;
+			.btn{
+				height: 30px;
+				color: #fff;
+				font-size: 14px;
+				border-radius: 3px;
+				background: #b1b2b2;
+				width: 100%;
+				height:auto;
+				white-space:normal;
+				margin-top: 20px;
+			}
+
+		} // THANK YOU RIGHT
+	} // ROW
+} // CONTAINER THANK YOU
+
+
+

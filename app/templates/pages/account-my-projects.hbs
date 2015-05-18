@@ -1,0 +1,135 @@
+---
+title: Account - My Projects
+---
+<body class="account">
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    {{>header}}
+
+    <!-- MAIN CONTENT -->
+    <div class="container" id="account">
+      <div class="row" id="nav">
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12">
+          <ul>
+            <li><a>ACCOUNT SETTINGS</a></li>
+            <li><a>MANAGE ORDERS</a></li>
+            <li><a class="active">MY PROJECTS</a></li>
+            <li><a>RATINGS &amp; REVIEWS</a></li>
+          </ul>
+       </div> <!-- COL NAV -->
+      </div> <!-- ROW NAV -->
+
+      <div class="row" id="account-top">
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12">
+          
+            <div class="section-top">
+              <div class="sec-left">
+              <div class="user-avatar-holder">
+                <img src="./images/customer-profile-img.png" alt="" class="user-avatar img-responsive">
+              </div><!-- CUST AVA HOLDER -->
+                <span class="name">Arielle Assouline-Lichten</span>
+              </div><!-- SEC LEFT -->
+              <div class="sec-right">
+                <div class="title-box">
+                  <h2>Welcome to your Projects</h2>
+                  <p>This is where you can manage your projects. Add new projects to help keep track of where your orders are going. 
+                  </p>
+                  
+                </div><!-- TITLE BOX -->
+              </div><!-- SEC RIGHT -->
+            </div><!-- SECTION TOP -->
+          
+
+        </div><!-- COL LG 10 -->
+      </div><!-- ROW #PROJECTS-->
+
+      <div class="row" id="projects-holder">
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12">
+          <div class="projects-header">
+            <h3>my projects</h3>
+            <span class="count">2</span>
+            <div class="btn fancybox" href="#fancy-add-item">Add New Project</div>
+            </div>
+          
+          </div><!-- COL -->
+
+          <div class="col-md-10 col-md-offset-1">
+            <div class="projects-list">
+              <div class="project-list-header">
+                <div class="col-one">
+                  PROJECT NAME
+                </div>
+                <div class="col-two">
+                  TYPE
+                </div>
+                <div class="col-three">
+                  Location
+                </div>
+                <div class="col-four">
+
+                </div>
+              </div><!-- PROJECT LIST HEAD -->
+              <ul>
+                <li>
+                  <div class="project">
+                    <div class="col-one">
+                      <span class="name">Pulp Fiction</span>
+                    </div>
+                    <div class="col-two">
+                      <span class="type">Feature Film</span>
+                    </div>
+                    <div class="col-three">
+                      <address class="location">
+                      190 West Street, Ground Floor<br>
+                      Brooklyn NY 11222
+                      </address>
+                    </div>
+                    <div class="col-four">
+                       <div class="buttons">
+                            <div class="btn white">Edit</div>
+                            <div class="btn grey">Delete</div>
+                        </div><!-- BUTTONS -->
+                    </div>
+                  </div><!-- PROJECT -->
+                </li>
+                <li>
+                  <div class="project">
+                    <div class="col-one">
+                      <span class="name">Project II</span>
+                    </div>
+                    <div class="col-two">
+                      <span class="type">Commercial</span>
+                    </div>
+                    <div class="col-three">
+                      <address class="location">
+                      190 West Street, Ground Floor<br>
+                      Brooklyn NY 11222
+                      </address>
+                    </div>
+                    <div class="col-four">
+                       <div class="buttons">
+                            <div class="btn white">Edit</div>
+                            <div class="btn grey">Delete</div>
+                        </div><!-- BUTTONS -->
+                    </div>
+                  </div><!-- PROJECT -->
+                </li>
+              </ul>
+              
+            </div><!-- PROJECTS LIST -->
+          </div><!-- COL MD OFFSET 1 -->
+
+          
+    
+      </div><!-- ROW#PROJECTS-HOLDER -->
+      
+
+    </div> <!-- #ACCOUNT.CONTAINER -->
+
+
+    {{>footer}}
+
+    {{>bottom-includes}}
+</body>

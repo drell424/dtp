@@ -1,0 +1,250 @@
+---
+title: Account - New Orders
+---
+<body class="account">
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    {{>header}}
+
+    <!-- MAIN CONTENT -->
+    <div class="container" id="account">
+      <div class="row" id="nav">
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12">
+          <ul>
+            <li><a>ACCOUNT SETTINGS</a></li>
+            <li>
+            <a class="active">MY ORDERS</a>
+            <ul class="sub-drop-down">
+                <li><a class="active">NEW ORDERS</a></li>
+                <li><a>PENDING</a></li>
+                <li><a>COMPLETED</a></li>
+              </ul>
+            </li>
+            <li><a>MY PROJECTS</a></li>
+            <li><a>RATINGS &amp; REVIEWS</a></li>
+          </ul>
+       </div> <!-- COL NAV -->
+      </div> <!-- ROW NAV -->
+  
+      <div class="row" id="account-top">
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12">
+          
+            <div class="section-top">
+              <div class="sec-left">
+              <div class="user-avatar-holder">
+                <img src="./images/customer-profile-img.png" alt="" class="user-avatar img-responsive">
+              </div><!-- CUST AVA HOLDER -->
+                <span class="name">Arielle Assouline-Lichten</span>
+              </div><!-- SEC LEFT -->
+              <div class="sec-right">
+                <div class="title-box">
+                  <h2>Welcome to your Order Management</h2>
+                  <p>
+                  This is where you can manage your order requests. Message back and forth with trusted vendors, and get access to the equipment you need.
+                  </p>
+                  
+                </div><!-- TITLE BOX -->
+              </div><!-- SEC RIGHT -->
+            </div><!-- SECTION TOP --> 
+        </div><!-- COL LG 10 -->
+      </div><!-- ROW #ACCOUNT TOP-->
+
+      <div class="row" id="orders-holder">
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12">
+          <div class="header">
+            <h3>new order requests</h3>
+            <span class="count">3</span>
+         
+            </div>
+          
+          </div><!-- COL -->
+        </div><!-- ROW -->
+
+        <div class="row order-item">
+          <div class="col-lg-10 col-lg-offset-1 col">
+            <div>
+              <div class="top">
+                <div class="order-number"> ORDER #1743243 <span class="count">1</span></div>
+                <div class="order-dates">DATES REQUESTED: <span>May 15, 2015 - May 30, 2015</span></div>
+                <div class="status btn processing">STATUS: NEW ORDER</div>
+              </div> <!-- TOP -->
+              <div class="bottom">
+                <div class="colophon">
+                  
+                    <div class="circle">
+                    {{!-- <div class="inner-circle"></div> --}}
+                    <img src="./images/able-cine.png" alt="">
+                    </div>
+                    <div class="time">8:15pm April 5th, 2015</div>
+                
+             
+                </div> <!-- COLOPHON -->
+                <div class="top-row">
+                <div class="col-one">
+                  <div class="company-name">ABEL Cine</div>
+                  <div class="company-location">Brooklyn, NY</div>
+                </div><!-- COL ONE -->
+                <div class="col-two">
+                  <div class="inquiry">INQUIRY ABOUT:<span>Large Alexa Oblique</span></div>
+
+                </div><!-- COL TWO -->
+                <div class="col-three">
+                 
+                </div><!-- COL THREE -->
+                <div class="col-four">
+                  <div class="total">total cost: <span>$2,000</span></div>
+                  
+                </div><!-- COL FOUR -->
+                
+                  
+                </div><!-- TOP ROW -->
+                <div class="bottom-row">
+                  <div class="col-one">
+                  <div class="project-name">PROJECT: <span>Pulp Fiction</span></div>
+                </div><!-- COL ONE -->
+                <div class="col-two">
+                  <div class="project-location">LOCATION:<span>No Location</span></div>
+
+                </div><!-- COL TWO -->
+                <div class="col-three">
+                 <div class="project-type">TYPE:<span>Feature Film</span></div>
+                </div><!-- COL THREE -->
+                <div class="col-four">
+                  <div class="btn">MANAGE ORDER</div>
+                  
+                </div><!-- COL FOUR -->
+                </div><!-- BOTTOM ROW -->
+            </div>
+            </div>
+          </div> <!-- COL -->
+        </div> <!-- ROW ORDER ITEM -->
+
+        <div class="row order-item">
+          <div class="col-lg-10 col-lg-offset-1 col">
+            <div>
+              <div class="top">
+                <div class="order-number"> ORDER #1743243 <span class="count">1</span></div>
+                <div class="order-dates">DATES REQUESTED: <span>May 15, 2015 - May 30, 2015</span></div>
+                <div class="status btn processing">STATUS: NEW ORDER</div>
+              </div> <!-- TOP -->
+              <div class="bottom">
+                <div class="colophon">
+                  
+                    <div class="circle">
+                    {{!-- <div class="inner-circle"></div> --}}
+                    <img src="./images/able-cine.png" alt="">
+                    </div>
+                    <div class="time">8:15pm April 5th, 2015</div>
+                
+             
+                </div> <!-- COLOPHON -->
+                <div class="top-row">
+                <div class="col-one">
+                  <div class="company-name">ABEL Cine</div>
+                  <div class="company-location">Brooklyn, NY</div>
+                </div><!-- COL ONE -->
+                <div class="col-two">
+                  <div class="inquiry">INQUIRY ABOUT:<span>Large Alexa Oblique</span></div>
+
+                </div><!-- COL TWO -->
+                <div class="col-three">
+                 
+                </div><!-- COL THREE -->
+                <div class="col-four">
+                  <div class="total">total cost: <span>$2,000</span></div>
+                  
+                </div><!-- COL FOUR -->
+                
+                  
+                </div><!-- TOP ROW -->
+                <div class="bottom-row">
+                  <div class="col-one">
+                  <div class="project-name">PROJECT: <span>Pulp Fiction</span></div>
+                </div><!-- COL ONE -->
+                <div class="col-two">
+                  <div class="project-location">LOCATION:<span>No Location</span></div>
+
+                </div><!-- COL TWO -->
+                <div class="col-three">
+                 <div class="project-type">TYPE:<span>Feature Film</span></div>
+                </div><!-- COL THREE -->
+                <div class="col-four">
+                  <div class="btn">MANAGE ORDER</div>
+                  
+                </div><!-- COL FOUR -->
+                </div><!-- BOTTOM ROW -->
+            </div>
+            </div>
+          </div> <!-- COL -->
+        </div> <!-- ROW ORDER ITEM -->
+
+        <div class="row order-item">
+          <div class="col-lg-10 col-lg-offset-1 col">
+            <div>
+              <div class="top">
+                <div class="order-number"> ORDER #1743243 <span class="count">1</span></div>
+                <div class="order-dates">DATES REQUESTED: <span>May 15, 2015 - May 30, 2015</span></div>
+                <div class="status btn processing">STATUS: NEW ORDER</div>
+              </div> <!-- TOP -->
+              <div class="bottom">
+                <div class="colophon">
+                  
+                    <div class="circle">
+                    {{!-- <div class="inner-circle"></div> --}}
+                    <img src="./images/able-cine.png" alt="">
+                    </div>
+                    <div class="time">8:15pm April 5th, 2015</div>
+                
+             
+                </div> <!-- COLOPHON -->
+                <div class="top-row">
+                <div class="col-one">
+                  <div class="company-name">ABEL Cine</div>
+                  <div class="company-location">Brooklyn, NY</div>
+                </div><!-- COL ONE -->
+                <div class="col-two">
+                  <div class="inquiry">INQUIRY ABOUT:<span>Large Alexa Oblique</span></div>
+
+                </div><!-- COL TWO -->
+                <div class="col-three">
+                 
+                </div><!-- COL THREE -->
+                <div class="col-four">
+                  <div class="total">total cost: <span>$2,000</span></div>
+                  
+                </div><!-- COL FOUR -->
+                
+                  
+                </div><!-- TOP ROW -->
+                <div class="bottom-row">
+                  <div class="col-one">
+                  <div class="project-name">PROJECT: <span>Pulp Fiction</span></div>
+                </div><!-- COL ONE -->
+                <div class="col-two">
+                  <div class="project-location">LOCATION:<span>No Location</span></div>
+
+                </div><!-- COL TWO -->
+                <div class="col-three">
+                 <div class="project-type">TYPE:<span>Feature Film</span></div>
+                </div><!-- COL THREE -->
+                <div class="col-four">
+                  <div class="btn">MANAGE ORDER</div>
+                  
+                </div><!-- COL FOUR -->
+                </div><!-- BOTTOM ROW -->
+            </div>
+            </div>
+          </div> <!-- COL -->
+        </div> <!-- ROW ORDER ITEM -->
+      
+
+
+    </div> <!-- CONTAINER#ACCOUNT -->
+
+
+    {{>footer}}
+
+    {{>bottom-includes}}
+</body>

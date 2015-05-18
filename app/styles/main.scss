@@ -1,0 +1,24 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+
+@import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap";
+
+
+@import "partials/base";
+@import "partials/home";
+@import "partials/vendor";
+@import "partials/search";
+@import "partials/shop";
+@import "partials/account";
+@import "partials/cart";
+@import "partials/media";
+@import "partials/thankyou";
+
+
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    
+  }
+}

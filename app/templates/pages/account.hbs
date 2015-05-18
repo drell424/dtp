@@ -1,0 +1,93 @@
+---
+title: Account 
+---
+<body class="account">
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    {{>header}}
+
+    <!-- MAIN CONTENT -->
+    <div class="container" id="account">
+      <div class="row" id="nav">
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12">
+          <ul>
+            <li><a class="active">ACCOUNT SETTINGS</a></li>
+            <li><a>MANAGE ORDERS</a></li>
+            <li><a>MY PROJECTS</a></li>
+            <li><a>RATINGS &amp; REVIEWS</a></li>
+          </ul>
+       </div> <!-- COL NAV -->
+      </div> <!-- ROW NAV -->
+
+      <div class="row" id="settings">
+
+        <div class="col-lg-3 col-lg-offset-1 col-md-3 col-sm-4">
+          <div class="settings-menu">
+            <div class="user-avatar-holder">
+              <img src="./images/customer-profile-img.png" alt="" class="user-avatar img-responsive">
+            </div><!-- CUST AVA HOLDER -->
+            <div class="store-name">My Name</div>
+            <a class="edit">Edit Profile</a>
+            <div class="settings-nav">
+              <div class="top">
+                <h3>SETTINGS</h3>
+                <h4>MY ACCOUNT</h4>
+              </div>
+              <ul>
+                <li><a href="#" class="active">MY PROFILE<span>></span></a></li>
+                <li><a href="#">PAYMENT INFO<span>></span></a></li>
+                <li><a href="#">SAVED ADDRESSES<span>></span></a></li>
+              </ul>
+            </div> <!-- SETTINGS NAV -->
+          </div> <!-- SETTINGS MENU -->
+        </div> <!-- COL 3 -->
+
+        <div class="col-lg-7 col-md-7 col-sm-7">
+          <div class="settings-content" id="profile">
+            <form role="form" class="form-inline">
+              <div class="top">
+                <h2>MY PROFILE</h2>
+              </div> <!-- TOP -->
+              <div class="form-group">
+                <input type="text" class="form-control left" placeholder="First Name">
+                <input type="text" class="form-control right" placeholder="Company Name">
+                <input type="text" class="form-control left" placeholder="Last Name">
+                <input type="text" class="form-control right" placeholder="Crew Position">
+              </div> <!-- FORM GROUP -->
+              <div class="form-group">
+                <input type="email" class="form-control left" placeholder="Email">
+                <input type="text" class="form-control right" placeholder="Phone Number">
+                <input type="password" class="form-control left" id="password" placeholder="Password">
+                <a href="#" class="btn" id="edit-password">EDIT</a>
+                <div class="form-group social">
+                <a href=""><i class="fa fa-lg fa-facebook"></i></a>
+                <input type="text" class="form-control" placeholder="Connect">
+                <a href=""><i class="fa fa-lg fa-twitter"></i></a>
+                <input type="text" class="form-control right" placeholder="Connect">
+                <a href=""><i class="fa fa-lg fa-linkedin"></i></a>
+                <input type="text" class="form-control" placeholder="Profile URL">
+                
+              </div> <!-- FORM GROUP SOCIAL -->
+              </div> <!-- FORM GROUP -->
+              
+
+              <div class="form-group update">
+                <a href="#" class="btn" id="update">UPDATE</a>
+              </div>
+            </form>
+          </div> <!-- SETTINGS CONTENT PROFILE -->
+        </div> <!-- COL 7 -->
+
+      </div> <!-- ROW SETTINGS -->
+      
+
+
+    </div> <!-- CONTAINER -->
+
+
+    {{>footer}}
+
+    {{>bottom-includes}}
+</body>

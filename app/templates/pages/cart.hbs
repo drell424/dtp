@@ -1,0 +1,143 @@
+---
+title: Cart
+---
+<body class="cart">
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    {{>header}}
+
+
+    <!-- MAIN CONTENT -->
+    <div class="container" id="cart">
+
+    	<div class="row" id="title">
+	        <div class="col-lg-3 col-lg-offset-1 col">
+	          <span>3</span> items in your cart
+	       </div> <!-- COL -->
+      </div> <!-- ROW TITLE -->
+
+      <div class="row cart-item">
+      	<div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col">
+      		<div>
+      			<form role="form">
+	      			<div class="top">
+	              <div class="order-number"><div class="dot"></div> Order #1743243</div>
+	              <div class="order-name">INQUIRY: <span>LEICA C300 CAMERA LENS</span></div>
+	              <div class="order-date"><img src="./images/cal-icon-black.png" />June 31 - July 31, 2014</div>
+	              <a href="#" class=""><img src="./images/btn_close.png" /></a>
+	            </div> <!-- TOP -->
+	            <div class="bottom">
+	            	<div class="row bottom-row">
+	            		<div class="col-lg-8 col-md-8 col-sm-12 inner-left-col">
+	            			<div class="cart-item">
+	            				<div class="image"></div>
+	            				<div class="info">
+	            					<div class="title">RED EPIC GOLD PACKAGE</div>
+	            					<div class="transaction">Transaction ID # 77777777</div>
+	            					<div class="quantity">
+	            						<div>Quantity: </div>
+	            						<select class="form-control">
+													  <option>1</option>
+													  <option>2</option>
+													  <option>3</option>
+													  <option>4</option>
+													  <option>5</option>
+													</select>
+	            					</div>
+	            					<div class="price">Price: $1,000</div>
+	            				</div> <!-- INFO -->
+	            			</div> <!-- CART ITEM -->
+	            			<div class="cart-item">
+	            				<div class="image"></div>
+	            				<div class="info">
+	            					<div class="title">RED EPIC GOLD PACKAGE</div>
+	            					<div class="transaction">Transaction ID # 77777777</div>
+	            					<div class="quantity">
+	            						<div>Quantity: </div>
+	            						<select class="form-control">
+													  <option>1</option>
+													  <option>2</option>
+													  <option>3</option>
+													  <option>4</option>
+													  <option>5</option>
+													</select>
+	            					</div>
+	            					<div class="price">Price: $1,000</div>
+	            				</div> <!-- INFO -->
+	            			</div> <!-- CART ITEM -->
+	            			<div class="misc">
+	            				<input type="text" class="form-control" id="insurance" placeholder="Insurance 2009-2010"><div class="check"></div>
+	            				<input type="text" class="form-control" id="agree" placeholder="Agree to the Terms of Rental"><div class="check"></div>
+	            				<div class="notes-title">Notes: </div>
+	            				<textarea name="notes" class="form-control" value=""></textarea>
+	            			</div> <!-- MISC -->
+	            		</div> <!-- INNER LEFT COL -->
+	            		<div class="col-lg-4 col-md-4 col-sm-12 inner-right-col">
+	            			<div class="receipt">
+	            				<div class="item">
+	            					<div class="left">
+	            						<div class="name">(2)    RED EPIC GOLD PKG</div>
+	            						<div class="total">Item Total</div>
+	            					</div>
+	            					<div class="price">$2,000</div>
+	            				</div> <!-- ITEM -->
+	            				<div class="item">
+	            					<div class="left">
+	            						<div class="name">(2)    RED EPIC GOLD PKG</div>
+	            						<div class="total">Item Total</div>
+	            					</div>
+	            					<div class="price">$2,000</div>
+	            				</div> <!-- ITEM -->
+	            				<div class="item shipping">
+	            					<div class="left">
+	            						<div class="name">Shipping: </div>
+	            						<select class="form-control">
+													  <option>Courier</option>
+													</select>
+	            					</div>
+	            					<div class="price">$100</div>
+	            				</div> <!-- ITEM SHIPPING -->
+	            				<div class="item total">
+	            					<div class="left">
+	            						<div class="name">Order Total</div>
+	            					</div>
+	            					<div class="price">$4,000</div>
+	            				</div> <!-- ITEM TOTAL -->
+	            			</div> <!-- RECEIPT -->
+	            			<div class="address">
+	            				<a class="edit"><img src="./images/icn_black_edit@2x.png" /> Edit</a>
+	            				<div class="title">Ship To:</div>
+	            				<div>
+	            					First Last Name<br/>
+												123 Street<br/>
+												Unit: #<br/>
+												City, State ZIPCODE<br/>
+												COUNTRY
+	            				</div>
+	            			</div> <!-- RECEIPT -->
+	            			<div class="payment">
+	            				<a class="edit"><img src="./images/icn_black_edit@2x.png" /> Edit</a>
+	            				<div class="title">Payment Method</div>
+	            				<div>
+	            					Visa ending in XXXX
+	            				</div>
+	            			</div> <!-- RECEIPT -->
+	            			<a class="btn checkout">CHECK OUT</a>
+	            		</div> <!-- INNER RIGHT COL -->
+	            	</div> <!-- BOTTOM ROW -->
+	            </div> <!-- BOTTOM -->
+          	</form> <!-- FORM -->
+      		</div> <!-- DIV -->
+      	</div> <!-- COL -->
+      </div> <!-- ROW CART ITEM -->
+      
+    </div> <!-- CONTAINER -->
+
+
+    {{>footer}}
+
+
+    {{>bottom-includes}}
+</body>
